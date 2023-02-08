@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  height: 100vh;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  border: 1px solid lightgrey;
+  background-color: lightblue;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.contagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.btns {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+button {
+  height: 30px;
+  width: 100px;
+  background-color: whitesmoke;
+  border: 0.5px solid grey;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
