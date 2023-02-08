@@ -19,10 +19,16 @@
 
 html {
   font-size: 10px;
+  background-image: url(https://img.freepik.com/vetores-gratis/fundo-verde-abstrato-de-visualizacao-de-big-data_1217-2314.jpg?w=1380&t=st=1675879818~exp=1675880418~hmac=c2ba6010bba12c4ce5787e368b342255b39eac74620cd0a0e9a4b03f6d250a07);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  
 }
 
 body {
   font-family: "Open Sans", sans-serif;
+  
 }
 
 p {
